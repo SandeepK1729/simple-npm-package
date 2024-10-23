@@ -1,5 +1,5 @@
 {
-  "name": "@clarkio/simple-npm-package",
+  "name": "@SandeepK1729/simple-npm-package",
   "version": "0.0.2",
   "description": "A simple npm package for demonstration purposes and use in a Node.js app.",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clarkio/simple-npm-package.git"
+    "url": "git+https://github.com/SandeepK1729/simple-npm-package.git"
   },
   "author": "clarkio",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/clarkio/simple-npm-package/issues"
+    "url": "https://github.com/SandeepK1729/simple-npm-package/issues"
   },
-  "homepage": "https://github.com/clarkio/simple-npm-package#readme",
+  "homepage": "https://github.com/SandeepK1729/simple-npm-package#readme",
   "keywords": [
     "node.js",
     "javascript",
@@ -24,5 +24,8 @@
     "example",
     "demo",
     "hello world"
-  ]
+  ],
+  "devDependencies": {
+    "semantic-release": "^24.1.3"
+  }
 }
