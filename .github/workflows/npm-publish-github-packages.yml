@@ -29,6 +29,7 @@ jobs:
       - name: Run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for pushing release commits and tags
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}  # Add NPM_TOKEN in your GitHub secrets for authentication
         run: npm run release
 
       # Step 5 (Optional): Push new version to npm registry
